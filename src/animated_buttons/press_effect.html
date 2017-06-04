@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script>
+		document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
+	</script>
+	<style>
+		.button {
+			border: none;
+			padding: 15px 25px;
+			font-size: 24px;
+			border-radius: 15px;
+			cursor: pointer;
+			color: #fff;
+			outline: none;
+			background-color: #4caf50;
+			box-shadow: 0 6px #999;
+		}
+
+		.button:hover {
+			background-color: #3e8e41;
+		}
+
+		.button:active {
+			background-color: #329936;
+			box-shadow: 0 3px #666;
+			transform: translateY(4px);
+		}
+	</style>
+</head>
+<body>
+<h2>Press effect</h2>
+
+<button class="button">Click me</button>
+</body>
+</html>
